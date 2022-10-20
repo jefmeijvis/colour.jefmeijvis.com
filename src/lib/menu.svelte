@@ -34,6 +34,7 @@
     <p>Pick a colour below</p>
     <input bind:value={colour} type="color"/>
     <p>By <a href="https://www.jefmeijvis.com?ref=colour">www.jefmeijvis.com</a></p>
+    <p>Find on <a href="https://github.com/jefmeijvis/colour.jefmeijvis.com">Github</a></p>
 </div>
 
 

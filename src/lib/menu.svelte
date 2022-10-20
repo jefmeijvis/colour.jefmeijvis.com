@@ -21,14 +21,14 @@
 
 <div 
     class="pull-tab"
-    style="bottom:{open?20:0}rem"
+    style="bottom:{open?25:0}rem"
     on:click={OnClick}
     on:keypress={OnClick}>
 </div>
 
 <div 
     class="menu"
-    style="bottom:{open?0:-20}rem">
+    style="bottom:{open?0:-25}rem">
     <h1>Full screen colour picker</h1>
     <p>Press <b>F11</b> to enter full screen mode</p>
     <p>Pick a colour below</p>
@@ -75,7 +75,7 @@
     .menu
     {
         width : var(--menuWidth);
-        height : 20rem;
+        height : 25rem;
         background-color: white;
         display: block;
         position: absolute;
